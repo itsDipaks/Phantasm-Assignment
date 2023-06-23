@@ -1,0 +1,50 @@
+.logo {
+    height: 116px;
+    color: #000;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Inter";
+    font-weight: 600;
+    background-color: rgba(229, 255, 255, 1);
+  }
+  .sidebar-content {
+    background-color: rgba(9, 76, 137, 1);
+    height: 100%;
+  }
+  .contentbox {
+    height: 64px;
+   
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+  .contentbox:hover {
+    background: #003e76;
+  }
+  .inner-content {
+    display: flex;
+    width: 222.214px;
+    height: 54px;
+    padding: 16px 24px;
+    align-items: center;
+    gap: 24px;
+    box-sizing: border-box;
+    flex-shrink: 0;
+    margin: auto;
+    /* border: 1px solid red; */
+    align-items: center;
+  }
+  .inner-content > p {
+    font-size: 18px;
+    color: rgba(252, 252, 252, 1);
+    font-family: "Inter";
+    font-weight: 600;
+  }
+  .inner-content > img {
+    width: 27.915px;
+    height: 28.03px;
+    flex-shrink: 0;
+  }
+  

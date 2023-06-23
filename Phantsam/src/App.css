@@ -4,6 +4,7 @@
   width: 100vw;
   height: 1447px;
   border: 1px solid red;
+  display: flex;
 }
 .sidebar {
   width: 317.169px;

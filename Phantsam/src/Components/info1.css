@@ -1,0 +1,46 @@
+.box-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 20%;
+    gap: 38px;
+}
+.logobox{
+    width: 73.656px;
+height: 73.656px;
+flex-shrink: 0;
+display: flex;
+justify-content: center;
+align-items: center;
+
+border-radius: 10px;
+background: var(--theme-color-white, #FCFCFC);
+
+box-shadow: 0px 20px 50px 0px rgba(0, 0, 0, 0.10);
+}
+.logobox>img{
+    width: 32.736px;
+height: 43.86px;
+flex-shrink: 0
+}
+.text-box{
+  
+    justify-content: space-around;
+    /* border: 1px solid red; */
+}
+.text-box>p{
+    font-size: 18px;
+    font-family: "Inter";
+    margin: 0;
+    padding: 0;
+    color: var(--theme-color-gray-3, #979797);
+}
+.text-box>h1{
+    color: var(--theme-color-dark-blue, #2D3845);
+/* Heading/Heading 1 */
+margin: 0;
+padding: 0;
+font-size: 40px;
+font-family: "Inter";
+font-weight: 700;
+}

@@ -5,6 +5,7 @@
   height: 1447px;
   border: 1px solid red;
   display: flex;
+  box-sizing: border-box;
 }
 .sidebar {
   width: 317.169px;
@@ -12,4 +13,17 @@
   height: 100%;
   display: flex;
   flex-direction: column;
+}
+.info1outerbox{
+  display: flex;
+justify-content: end;
+margin-top: 13px;
+}
+.info1{
+  display: flex;
+  flex-direction: column;
+justify-content: end;
+gap: 15px;
+/* height: 120px; */
+/* border: 1px solid black;  */
 }

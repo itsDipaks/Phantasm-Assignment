@@ -4,10 +4,12 @@
     /* border: 1px solid black; */
     height: 105px;
     align-items: center;
-    /* min-width: 100%; */
-    box-sizing: border-box;
+    min-width: 100%;
+    
     gap: 200px;
-    padding: 0px 80px 0px 80px;
+    margin: 0px 40px 0px 40px;
+    box-sizing: border-box;
+
 }
 .title{
     display: flex;
@@ -15,6 +17,7 @@ width: 324.784px;
 height: 48.663px;
 flex-direction: column;
 justify-content: center;
+box-sizing: border-box;
 /* border: 1px solid black; */
 flex-shrink: 0;
  
